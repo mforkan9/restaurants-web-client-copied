@@ -1,0 +1,97 @@
+.userSidebar {
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 6px 14px;
+    border-right: 1px solid rgb(200, 250, 205);
+
+
+    .make-me-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+
+    }
+
+    .logo-div{
+        height: 50px;
+        width: 100%;
+        margin-bottom: 50px;
+        padding: auto;
+        margin-top: 0;
+        border-bottom: 1px solid black;
+
+        .icon{
+            color: #176560;
+            font-size: 50px;
+        }
+        h4{
+            
+            margin-top: 15px;
+            color: rgb(132, 209, 140);
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    }
+
+    ul {
+        margin-top: 20px;
+
+        li {
+            position: relative;
+            //height: 60px;
+            width: 100%;
+            list-style: none;
+            margin: 5px 10px;
+            line-height: 50px;
+            border-radius: 12px;
+
+            a {
+                color: #11101d;
+                display: flex;
+                width: 100%;
+                align-items: center;
+                text-decoration: none;
+                transition: all 0.4s ease;
+                border-radius: 12px;
+
+                a:hover {
+                    color: rgb(0, 171, 85);
+                    background-color: rgb(200, 250, 205);
+                    // background-color:rgba(0, 171, 85, 0.08);
+                }
+
+                i {
+                    height: 50px;
+                    min-width: 50px;
+                    border-radius: 12px;
+                    line-height: 50px;
+                    text-align: center;
+                }
+            }
+
+        }
+
+    }
+
+    .logoutBtn {
+        color: #11101d;
+        a {
+            color: #fff;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            text-decoration: none;
+            transition: all 0.4s ease;
+            border-radius: 12px;
+
+
+            i {
+                height: 50px;
+                min-width: 50px;
+                border-radius: 12px;
+                line-height: 50px;
+                text-align: center;
+            }
+        }
+    }
+}

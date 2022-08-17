@@ -1,0 +1,53 @@
+.profile-side{
+
+    .one{
+        margin: 10px;
+        border-radius: 10px;
+        height: 420px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+    }
+     .profile-div{
+        height: 100px;
+        width: 100px;
+        
+        img{
+            margin-top: 10px;
+            width: 100%;
+        }
+     }
+
+     .nid{
+        margin: 15px;
+        dt{
+            box-sizing: border-box;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 21px;
+            text-size-adjust: 100%;
+            color: rgb(33, 37, 41);
+        }
+        dd{
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 20px;
+            text-size-adjust: 100%;
+            margin-top: 5px;
+        }
+     }
+}
+.last-side{
+    margin-top: 10px;
+    .oneside{
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        border-radius: 10px;
+
+        .table-div{
+      
+            max-height: 620px;
+            overflow: scroll;
+            overflow-x: hidden;
+
+        }
+    }
+}

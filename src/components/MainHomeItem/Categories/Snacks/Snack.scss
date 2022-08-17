@@ -1,0 +1,44 @@
+.snack-main{
+    text-align: center;
+    height: 350px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+    .one-snack {
+        text-align: center;
+        height: 290px;
+  
+        .one-snack-inner {
+         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+           //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+           border-radius: 20px;
+           transition: transform 0.2s ease;
+           height: 290px;
+           margin-top: 10px;
+           margin-left: 15px;
+           color: black;
+           margin-right: 15px;
+  
+           img {
+              border-radius: 10px;
+              margin-top: 10px;
+              height: 150px;
+              width: 170px;
+  
+           }
+        }
+  
+        .details-snack-item {
+           margin-top: 10px;
+        }
+     }
+  
+     .one-snack-inner:hover {
+        transform: scale(1.1);
+     }
+}
+.headFont{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: #111;
+}

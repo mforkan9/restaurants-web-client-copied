@@ -1,0 +1,39 @@
+.loginPage{
+    margin-top: 40px;
+    .mainDiv{
+        margin: auto;
+       // width: 50%;
+
+        .login-form{
+            margin: auto;
+           // width: 50%;
+
+            input{
+                border-bottom: 2px solid gray;
+
+            }
+            
+            input:focus{
+                border-color: #1266f1;
+            }
+        }
+
+    }
+
+    .pass-wrapper {
+        position: relative;
+        display: flex;
+        margin-bottom: 14px;
+
+        .show{
+            position: absolute;
+            top: 10%;
+            right: 1%;
+            color: black;
+        }
+        .show:hover{
+            color:#1266f1 ;
+            cursor: pointer;
+        }
+      }
+}

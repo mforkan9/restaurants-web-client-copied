@@ -1,0 +1,50 @@
+.earning-card{
+ 
+    h4{
+        font-size: 20px;
+        color: rgb(0, 171, 85);
+    }
+    i{
+        padding: 10px;
+        background-color: rgb(200, 250, 205);
+        border-radius: 100%;
+    }
+}
+.sales-card{
+    h4{
+        font-size: 20px;
+        
+    }
+    i{
+        padding: 10px;
+        background-color:rgb(208, 242, 255) ;
+        border-radius: 100%;
+       
+    }
+}
+.order-card{
+    h4{
+        font-size: 20px;
+        color: rgb(183, 129, 3)  ;
+    }
+    i{
+        padding: 10px;
+        background-color:rgb(255, 247, 205) ;
+        color: rgb(183, 129, 3) ;
+        border-radius: 100%;
+       
+    }
+}
+.danger-card{
+    h4{
+        font-size: 20px;
+        color: rgb(183, 33, 54)   ;
+    }
+    i{
+        padding: 10px;
+        background-color:rgb(255, 231, 217)  ;
+        color: rgb(183, 33, 54)  ;
+        border-radius: 100%;
+       
+    }
+}

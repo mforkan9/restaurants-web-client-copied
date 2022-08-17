@@ -1,0 +1,11 @@
+.review-div{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 20px;
+     max-height: 650px;
+     overflow-y: scroll;
+
+     .border-div{
+        border-left: 1px solid gainsboro;
+        border-right: 1px solid gainsboro;
+     }
+}

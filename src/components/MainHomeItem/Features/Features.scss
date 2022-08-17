@@ -1,0 +1,29 @@
+.features-main{
+    background-image:linear-gradient(to left,rgba(0,0,0,0),rgba(0,0,0,0.3)), url(./compressjpgoatmeal-dryfruits-with-bird-paradise-flower-white-background.jpg);
+    height: 52vh;
+    min-width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    //overflow: scroll;
+    //overflow-x:hidden;
+    opacity: 3;
+   // border-radius: 10px;
+   
+
+    .features-body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+        img{
+            width: 30%;
+        }
+
+    }
+
+   
+   
+}

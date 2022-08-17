@@ -1,0 +1,67 @@
+.categoryMain{
+  text-align: center;
+    margin-top: 20px;
+
+    .breakfast{
+        margin-top: 30px;
+        height: 150px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        
+        img{
+            max-width: 50%;
+           max-height: 50%;
+            height: 60px;
+            width: 60px;
+        }
+        h5{
+            font-size: 2vh;
+        }
+     
+    }
+    .lunch{
+        margin-top: 30px;
+        height: 150px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        img{
+            max-width: 50%;
+            max-height: 50%;
+           height: 60px;
+            width: 60px;
+        }
+        h5{
+            font-size: 2vh;
+        }
+    }
+    .dinner{
+        margin-top: 30px;
+        height: 150px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        img{
+            max-width: 50%;
+            max-height: 50%;
+            height: 60px;
+            width: 60px;
+        }
+        h5{
+            font-size: 2vh;
+        }
+
+    }
+    .snacks{
+        margin-top: 30px;
+        height: 150px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        img{
+            max-width: 50%;
+            max-height: 50%;
+           height: 60px;
+            width: 60px;
+        }
+        h5{
+            font-size: 2vh;
+        }
+    }
+}

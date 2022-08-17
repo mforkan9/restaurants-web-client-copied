@@ -1,0 +1,39 @@
+.moreLunch-main {
+    margin-top: 30px;
+    text-align: center;
+
+    .one {
+
+        //height: 290px;
+        .one-inner {
+            // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
+            height: 320px;
+            margin-left: 5px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+
+        .image {
+            //padding: 5px;
+            height: 160px;
+
+
+            img {
+                height: 100%;
+                width: 100%;
+                //border-radius: 10px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+        }
+     .name-size{
+        font-size: 1vw;
+     }
+     .rating-size{
+        font-size: 1vw;
+        
+     }
+    }
+}
+ 
